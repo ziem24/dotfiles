@@ -1,0 +1,6 @@
+[Plugins]
+krunner_appstreamEnabled=false
+krunner_webshortcutsEnabled=false
+
+[Plugins][Favorites]
+plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings

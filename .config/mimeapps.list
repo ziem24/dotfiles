@@ -1,0 +1,14 @@
+[Added Associations]
+application/pdf=org.mozilla.firefox.desktop;
+application/x-shellscript=Neovim-3.desktop;Neovim-2.desktop;Neovim.desktop;
+image/gif=qimgv.desktop;
+image/jpeg=qimgv.desktop;
+image/png=org.kde.gwenview.desktop;qimgv.desktop;
+
+[Default Applications]
+application/pdf=org.mozilla.firefox.desktop;
+application/x-shellscript=Neovim-3.desktop;
+image/gif=qimgv.desktop;
+image/jpeg=qimgv.desktop;
+image/png=org.kde.gwenview.desktop;
+x-scheme-handler/discord=vesktop.desktop

@@ -1,0 +1,33 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/city.jpg
+File10[$e]=$HOME/Pictures/liminal.webp
+File2[$e]=$HOME/Pictures/charlie kirky on the perky.png
+File3[$e]=$HOME/Pictures/brennan.jpg
+File4[$e]=$HOME/Pictures/aubrey.jpg
+File5[$e]=$HOME/Pictures/blol.png
+File6[$e]=$HOME/Pictures/truthnuke.png
+File7[$e]=$HOME/Pictures/Screenshot_2026-04-30_18-10-10.png
+File8[$e]=$HOME/Pictures/Screenshot_2026-05-07_00-06-39.png
+File9[$e]=$HOME/Pictures/guy.png
+Name1[$e]=city.jpg
+Name10[$e]=liminal.webp
+Name2[$e]=charlie kirky on the perky.png
+Name3[$e]=brennan.jpg
+Name4[$e]=aubrey.jpg
+Name5[$e]=blol.png
+Name6[$e]=truthnuke.png
+Name7[$e]=Screenshot_2026-04-30_18-10-10.png
+Name8[$e]=Screenshot_2026-05-07_00-06-39.png
+Name9[$e]=guy.png
+
+[SideBar]
+InformationSplitterSizes=220,255
+IsVisible ViewMode=true
+SideBarSplitterSizes=245,741
