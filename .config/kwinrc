@@ -70,12 +70,5 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][d88279b3-ae37-4473-a496-e0803a4e61fe][c8e41dce-53c7-454b-be04-93a653041435]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
-[Wayland]
-InputMethod[$d]
-
 [Xwayland]
 Scale=1
-
-[org.kde.kdecoration2]
-library=org.kde.breeze
-theme=Breeze
