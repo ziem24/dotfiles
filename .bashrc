@@ -24,6 +24,7 @@ alias l="ls"
 alias la="ls -a"
 alias ll="ls -alh"
 alias aphexfetch='fastfetch -c ~/.config/fastfetch/presets/afx.jsonc'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do

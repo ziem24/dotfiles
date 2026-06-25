@@ -9,3 +9,5 @@
 	autoSetupRemote = true
 [includeIf "gitdir:~/Documents/Private/Repos/"]
     path = ~/Documents/Private/Repos/.gitconfig-private
+[core]
+	editor = nano
