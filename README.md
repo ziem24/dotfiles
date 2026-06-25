@@ -6,7 +6,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 git clone --bare git@github.com:ziem24/dotfiles.git $HOME/.dotfiles
 .dotfiles/bootstrap.sh
 ```
-Note: the alias is also added in .bashrc, so you won't need to run this after cloning
 
 ### How to add things:
 ```sh
@@ -18,6 +17,10 @@ config commit -a # -a to update tracked files
 ```sh
 config config --local status.showUntrackedFiles no
 ```
+
+### Notes:
+- The alias 'config' is also added in .bashrc, so you won't need to set it afterwards
+- The icon theme is kinda broken when installing from github raw, so it might need a reinstallation from the system settings gui. My ass cannot be bothered to fix it
 
 ### Fun things to try out:
 - Type 'aphexfetch' in the (very awesome and riced up kitty) terminal
