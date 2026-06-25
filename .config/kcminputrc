@@ -1,5 +1,9 @@
 [Libinput][1267][12693][ELAN0676:00 04F3:3195 Touchpad]
 DisableEventsOnExternalMouse=true
 
+[Libinput][5426][120][Razer Razer Viper]
+PointerAcceleration=0.600
+PointerAccelerationProfile=1
+
 [Mouse]
 cursorTheme=Breeze_Light
