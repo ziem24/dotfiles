@@ -14,6 +14,11 @@ config add <thing...>
 config commit -a # -a to update tracked files
 ```
 
-### Fun things to try out
-- Type 'aphexfetch' in the terminal
+### Useful commands:
+```sh
+config config --local status.showUntrackedFiles no
+```
+
+### Fun things to try out:
+- Type 'aphexfetch' in the (very awesome and riced up kitty) terminal
 - Be productive
