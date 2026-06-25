@@ -1,4 +1,4 @@
-# Dotfiles thing for KDE systems
+# Dotfiles thing for Arch Linux KDE systems
 
 ### How to get the changes:
 ```sh

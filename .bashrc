@@ -14,11 +14,6 @@ export PATH
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
-export PYTHONSTARTUP="$HOME/.config/python/pythonrc"
-export LESSHISTFILE="$HOME/.local/state/lesshst"
-export GNUPGHOME="$HOME/.local/share/gnupg"
-export DOTNET_CLI_HOME="$HOME/.local/share/dotnet"
-
 # User specific aliases and functions
 alias l="ls"
 alias la="ls -a"

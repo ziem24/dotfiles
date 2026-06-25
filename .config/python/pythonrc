@@ -1,9 +1,0 @@
-import atexit
-import os
-import readline
-
-history = os.path.expanduser('~/.local/share/python_history')
-if os.path.exists(history):
-    readline.read_history_file(history)
-
-atexit.register(readline.write_history_file, history)

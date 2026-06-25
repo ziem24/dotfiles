@@ -273,7 +273,3 @@ _launch=Alt+T
 
 [services][org.kde.plasma-systemmonitor.desktop]
 _launch=Ctrl+Shift+Esc\tMeta+Esc
-
-[services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=none
-OpenWithoutScreenshot=none
