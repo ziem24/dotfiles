@@ -4,7 +4,8 @@
 ```sh
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 git clone --bare git@github.com:ziem24/dotfiles.git $HOME/.dotfiles
-.dotfiles/bootstrap.sh
+config checkout
+./bootstrap.sh
 ```
 
 ### How to add things:
