@@ -120,6 +120,7 @@ toolBarFont=Segoe UI Variable Static Small,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Theme=Breeze Chameleon Dark
 
 [KDE]
+AnimationDurationFactor=0.75
 LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
 contrast=4
@@ -138,7 +139,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=true
+Sort reversed=false
 Speedbar Width=140
 View Style=DetailTree
 
@@ -148,6 +149,9 @@ BinaryUnitDialect=2
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
+
+[Shortcuts]
+OpenMainMenu=
 
 [WM]
 activeBackground=47,52,63

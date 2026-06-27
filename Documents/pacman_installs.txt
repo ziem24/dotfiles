@@ -1,7 +1,5 @@
 alsa-firmware
-alsa-lib
 alsa-tools
-alsa-ucm-conf
 alsa-utils
 amd-ucode
 ark
@@ -53,10 +51,7 @@ kscreen
 ksshaskpass
 kwallet-pam
 kwrited
-lib32-nvidia-utils
 libheif
-libinput
-libpulse
 libreoffice-fresh
 libvirt
 linux
@@ -84,7 +79,6 @@ os-prober
 packagekit-qt6
 partitionmanager
 pavucontrol
-pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
@@ -103,6 +97,7 @@ power-profiles-daemon
 powerdevil
 print-manager
 prismlauncher
+python
 python-matplotlib
 python-pip
 qemu-base
@@ -116,6 +111,7 @@ smartmontools
 sof-firmware
 spectacle
 steam
+sudo
 systemsettings
 texlive-basic
 texlive-bibtexextra
@@ -154,9 +150,9 @@ vlc-plugins-all
 vulkan-radeon
 wacomtablet
 wget
+which
 wireplumber
 wireshark-qt
-xdg-utils
 xf86-video-amdgpu
 xorg-server-xephyr
 xorg-xinit

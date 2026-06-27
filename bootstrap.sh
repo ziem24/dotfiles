@@ -1,33 +1,57 @@
 #!/bin/sh
 
 OLDPWD=$(pwd)
-cd $(dirname $0)
+CONFLICTS='/tmp/dotfiles_conflict.txt'
 
-mkdir -p ~/Videos/OBS
-mkdir -p ~/.local/share/icons/
-mkdir -p ~/.local/share/plasma/desktoptheme/
+echo "Creating necessary directories..."
+mkdir -p "$HOME/Videos/OBS/"
+mkdir -p "$HOME/.local/share/icons/"
+mkdir -p "$HOME/.local/share/plasma/desktoptheme/"
 
-CONFIG="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+echo "Enabling multilib repository (needed for Steam)..."
+sudo sed -i '/^#\[multilib-testing\]/,/^#Include/ s/^#//' /etc/pacman.conf
 
 echo "Installing necessary packages..."
-sudo pacman -Syu dolphin gwenview btop fastfetch kitty python unzip wget || exit 1
+sudo pacman -Syyu --needed btop dolphin fastfetch git gwenview kitty networkmanager plasma-login-manager wget || exit 1
+
+echo "Enabling services..."
+sudo systemctl enable --now NetworkManager.service
+sudo systemctl enable --now plasmalogin.service
+
+echo "Building yay..."
+git clone --depth=1 https://aur.archlinux.org/yay.git /tmp/yay
+cd /tmp/yay
+makepkg -si
+cd "$(dirname "$0")"
 
 echo "Installing themes..."
-
 git clone --depth=1 https://github.com/L4ki/Breeze-Chameleon-Icons.git /tmp/Breeze-Chameleon-Icons || exit 2
 mv '/tmp/Breeze-Chameleon-Icons/Breeze Chameleon Dark' ~/.local/share/icons/
-rm -rf /tmp/Breeze-Chameleon-Icons
-
 git clone --depth=1 https://github.com/EliverLara/Nordic-kde.git /tmp/Nordic-kde || exit 3
 mv /tmp/Nordic-kde ~/.local/share/plasma/desktoptheme/Nordic
-rm -rf /tmp/
 
-if [ -s "$HOME/.dotfiles/tmp" ]
+rm -rf /tmp/yay /tmp/Breeze-Chameleon-Icons
+
+echo "Installing a GRUB theme..."
+echo "JUST KIDDING!!!!!! I don't want to do it yet." # TODO
+
+echo "Checking out the repository branch..."
+rm -f "$CONFLICTS"
+git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout 2>"$CONFLICTS"
+if [ -s "$CONFLICTS" ]
 then
-    cat "$HOME/.dotfiles/tmp" | grep -v "$(cat "$HOME/.dotfiles/tmp" | head -1)" | grep -v "$(cat "$HOME/.dotfiles/tmp" | tail -2)" | xargs rm -f
+    cat "$CONFLICTS" | while read -r line
+    do
+        TARGET="$HOME/$line"
+        if [ -f "$TARGET" ] || [ -L "$TARGET" ]
+        then
+            rm -f "$TARGET"
+        fi
+    done
 fi
-rm -f "$HOME/.dotfiles/tmp"
-
-"$CONFIG" checkout
+git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout
+rm -f "$CONFLICTS"
 
 cd "$OLDPWD"
+
+echo "Done"

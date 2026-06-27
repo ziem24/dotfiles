@@ -6,26 +6,26 @@ SideBarPage=operations
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Pictures/aubrey.jpg
-File10[$e]=/run/media/tdziekan/Dysk_6TB/Linux Backup/home/tdziekan/Pictures/oneshot.png
-File2[$e]=$HOME/Pictures/blol.png
-File3[$e]=$HOME/Pictures/truthnuke.png
-File4[$e]=$HOME/Pictures/Screenshot_2026-04-30_18-10-10.png
-File5[$e]=$HOME/Pictures/Screenshot_2026-05-07_00-06-39.png
-File6[$e]=$HOME/Pictures/guy.png
-File7[$e]=$HOME/Pictures/liminal.webp
+File1[$e]=$HOME/Pictures/truthnuke.png
+File10[$e]=$HOME/Pictures/Screenshots/Screenshot_20260626_171726.png
+File2[$e]=$HOME/Pictures/Screenshot_2026-04-30_18-10-10.png
+File3[$e]=$HOME/Pictures/Screenshot_2026-05-07_00-06-39.png
+File4[$e]=$HOME/Pictures/guy.png
+File5[$e]=$HOME/Pictures/liminal.webp
+File6[$e]=/run/media/tdziekan/Dysk_6TB/Linux Backup/home/tdziekan/Pictures/desktop_2026-03-10.png
+File7[$e]=/run/media/tdziekan/Dysk_6TB/Linux Backup/home/tdziekan/Pictures/oneshot.png
 File8[$e]=$HOME/Pictures/Wallpapers/Loginscreen.png
-File9[$e]=/run/media/tdziekan/Dysk_6TB/Linux Backup/home/tdziekan/Pictures/desktop_2026-03-10.png
-Name1[$e]=aubrey.jpg
-Name10[$e]=oneshot.png
-Name2[$e]=blol.png
-Name3[$e]=truthnuke.png
-Name4[$e]=Screenshot_2026-04-30_18-10-10.png
-Name5[$e]=Screenshot_2026-05-07_00-06-39.png
-Name6[$e]=guy.png
-Name7[$e]=liminal.webp
+File9[$e]=$HOME/Desktop/Private/Super scraper 9000/BEST EMPLOYED MOMENTS.gif
+Name1[$e]=truthnuke.png
+Name10[$e]=Screenshot_20260626_171726.png
+Name2[$e]=Screenshot_2026-04-30_18-10-10.png
+Name3[$e]=Screenshot_2026-05-07_00-06-39.png
+Name4[$e]=guy.png
+Name5[$e]=liminal.webp
+Name6[$e]=desktop_2026-03-10.png
+Name7[$e]=oneshot.png
 Name8[$e]=Loginscreen.png
-Name9[$e]=desktop_2026-03-10.png
+Name9[$e]=BEST EMPLOYED MOMENTS.gif
 
 [SideBar]
 InformationSplitterSizes=220,255

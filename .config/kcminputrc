@@ -1,6 +1,8 @@
 [Libinput][1267][12693][ELAN0676:00 04F3:3195 Touchpad]
-DisableEventsOnExternalMouse=false
+DisableEventsOnExternalMouse=true
 DisableWhileTyping=false
+Enabled=false
+PointerAccelerationProfile=1
 
 [Libinput][5426][120][Razer Razer Viper]
 PointerAcceleration=0.600
