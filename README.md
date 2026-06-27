@@ -1,9 +1,14 @@
 # Dotfiles thing for Arch Linux KDE systems
 
+### Prerequisites:
+- A non-root user
+- Internet connection
+- Packages `git` and `sudo`
+
 ### How to get the changes:
 ```sh
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-git clone --bare git@github.com:ziem24/dotfiles.git $HOME/.dotfiles
+git clone --bare https://github.com/ziem24/dotfiles.git $HOME/.dotfiles
 config checkout
 ./bootstrap.sh
 ```
