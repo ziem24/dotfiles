@@ -1,14 +1,14 @@
 [user]
-	name = Tomasz Dziekański
-	email = 01197468@pw.edu.pl
+	name = ziem24
+	email = 105926805+ziem24@users.noreply.github.com
 [init]
 	defaultBranch = main
 [credential]
 	helper = cache --timeout=3600
 [push]
 	autoSetupRemote = true
-[includeIf "gitdir:~/Documents/Private/Repos/"]
-    path = ~/Documents/Private/Repos/.gitconfig-private
+[includeIf "gitdir:~/Documents/Studia/Repos/"]
+    path = ~/Documents/Studia/Repos/.gitconfig-stud
 [core]
 	editor = nano
 [alias]

@@ -105,8 +105,6 @@ qemu-ui-curses
 rclone
 reflector
 rsync
-sddm
-sddm-kcm
 smartmontools
 sof-firmware
 spectacle

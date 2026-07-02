@@ -1,4 +1,4 @@
-doom
+gzdoom
 neofetch
 qimgv
 snake
@@ -10,4 +10,3 @@ visual-studio-code-bin
 vscodium
 xf86-video-vmware
 yay
-yay-debug

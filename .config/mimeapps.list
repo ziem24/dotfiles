@@ -63,6 +63,7 @@ video/x-ogm+ogg=vlc.desktop;
 video/x-theora=vlc.desktop;
 video/x-theora+ogg=vlc.desktop;
 x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop;
+x-scheme-handler/discord=vesktop.desktop
 
 [Default Applications]
 application/json=org.kde.kwrite.desktop;

@@ -8,7 +8,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "P5tTh4Ekc_b48JYHusI3RA"
+                "RestoreToken": "ObhSw8qhbK_s0UUayL7TDA"
             },
             "mixers": 0,
             "sync": 0,
@@ -66,7 +66,7 @@
             "mixers": 194,
             "sync": 0,
             "flags": 0,
-            "volume": 0.31582215428352356,
+            "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
