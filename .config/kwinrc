@@ -1,7 +1,6 @@
 [Desktops]
 Id_1=b452bd86-2c05-4a6f-8352-4cbdeb75a15a
-Id_2=7bdd926b-431e-4ae0-b2f5-56f5179af0ca
-Number=2
+Number=1
 Rows=1
 
 [Effect-blur]
@@ -9,6 +8,9 @@ NoiseStrength=7
 
 [Effect-colorblindnesscorrection]
 Mode=2
+
+[Effect-translucency]
+MoveResize=98
 
 [NightColor]
 Active=true
@@ -19,6 +21,7 @@ blurEnabled=true
 glideEnabled=true
 scaleEnabled=false
 shakecursorEnabled=false
+translucencyEnabled=true
 
 [Tiling][38138298-05c2-4425-897a-993bdcd88384][9dcc1e51-3f5d-4ba7-bffe-01de6c4bf758]
 padding=4

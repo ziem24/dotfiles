@@ -5,9 +5,47 @@ switch-to-activity-1af1f879-45f1-4c71-b803-617dc7b19edf=none,none,Switch to acti
 switch-to-activity-d7958317-664d-487f-a973-c949fa2eeb2e=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to Polish=none,none,Switch keyboard layout to Polish
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
+
+[amarok]
+_k_friendly_name=Amarok
+decreaseVolume=Meta+-,Meta+-,Decrease Volume
+increaseVolume=Meta++,Meta++,Increase Volume
+loveTrack=Meta+L,Meta+L,Last.fm: Love Current Track
+mute=Meta+M,Meta+M,Mute Volume
+next=none,none,Next Track
+play_pause=none,none,Play/Pause
+playlist_add=Meta+A,Meta+A,Add Media...
+prev=none,none,Previous Track
+rate1=Meta+1,Meta+1,Rate Current Track: 1
+rate2=Meta+2,Meta+2,Rate Current Track: 2
+rate3=Meta+3,Meta+3,Rate Current Track: 3
+rate4=Meta+4,Meta+4,Rate Current Track: 4
+rate5=Meta+5,Meta+5,Rate Current Track: 5
+replay=none,none,Restart current track
+seek_backward_medium=Meta+Shift+-,Meta+Shift+-,Seek Backward by 10.0 seconds
+seek_forward_medium=Meta+Shift++,Meta+Shift++,Seek Forward by 10.0 seconds
+showNotificationPopup=Meta+O,Meta+O,Show Notification Popup
+skipTrack=Meta+S,Meta+S,Last.fm: Skip Current Track
+stop=none,none,Stop
+stop_after_current=Meta+Shift+V,Meta+Shift+V,Stop after current Track
+toggleMainWindow=none,none,Toggle Main Window
+
+[juk]
+_k_friendly_name=JuK
+back=Ctrl+Alt+Left,Ctrl+Alt+Left,Previous
+forward=Ctrl+Alt+Right,Ctrl+Alt+Right,Next
+forwardAlbum=Ctrl+Alt+Up,Ctrl+Alt+Up,Play Next Album
+mute=Ctrl+Alt+M,Ctrl+Alt+M,Mute
+playPause=Ctrl+Alt+P,Ctrl+Alt+P,Play / Pause
+seekBack=Ctrl+Alt+Shift+Left,Ctrl+Alt+Shift+Left,Seek Back
+seekForward=Ctrl+Alt+Shift+Right,Ctrl+Alt+Shift+Right,Seek Forward
+stop=Ctrl+Alt+S,Ctrl+Alt+S,Stop
+volumeDown=Ctrl+Alt+Shift+Down,Ctrl+Alt+Shift+Down,Volume Down
+volumeUp=Ctrl+Alt+Shift+Up,Ctrl+Alt+Shift+Up,Volume Up
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -278,3 +316,6 @@ _launch=Ctrl+Shift+Esc\tMeta+Esc
 [services][org.kde.spectacle.desktop]
 CurrentMonitorScreenShot=none
 OpenWithoutScreenshot=none
+
+[services][systemsettings.desktop]
+_launch=Tools\tMeta+I\tMeta+S

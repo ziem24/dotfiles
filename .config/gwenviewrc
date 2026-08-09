@@ -1,3 +1,9 @@
+[Crop]
+CropAdvancedSettingsEnabled=true
+CropRatioHeight=1
+CropRatioIndex=1
+CropRatioWidth=1
+
 [General]
 LastUsedVersion=210800
 SideBarPage=operations
@@ -6,26 +12,26 @@ SideBarPage=operations
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Documents/Studia/SEM3/WSI/MINIMAX.png
-File10[$e]=$HOME/Documents/Private/common/Geometry Dash/geode/config/geode.texture-loader/packs/ssoh v4 ziemm edit/pack.png
-File2[$e]=$HOME/Documents/Studia/SEM2/SKM/Laboratoria/lab5/konfiguracja.png
-File3[$e]=$HOME/Downloads/obrazy_testowe/color_inoise2/boat_col_inoise.png
-File4[$e]=$HOME/Documents/Studia/SEM4/WMM/Laboratoria/lab4/assets/gory_col_inoise1.png
-File5[$e]=$HOME/Documents/Studia/SEM4/WMM/Laboratoria/lab4/assets/gory_col_inoise.png
-File6[$e]=$HOME/Downloads/obrazy_testowe/color_inoise1/house_col_inoise.png
-File7[$e]=$HOME/Documents/Studia/SEM4/WMM/Laboratoria/lab6/results/Screenshot at 2026-04-24 15-39-25.png
-File8[$e]=/run/media/tdziekan/Dysk_6TB/Windows Backup/Pictures/𒐫.png
-File9[$e]=/run/media/tdziekan/Dysk_6TB/Windows Backup/Pictures/938 raw.png
-Name1[$e]=MINIMAX.png
-Name10[$e]=pack.png
-Name2[$e]=konfiguracja.png
-Name3[$e]=boat_col_inoise.png
-Name4[$e]=gory_col_inoise1.png
-Name5[$e]=gory_col_inoise.png
-Name6[$e]=house_col_inoise.png
-Name7[$e]=Screenshot at 2026-04-24 15-39-25.png
-Name8[$e]=𒐫.png
-Name9[$e]=938 raw.png
+File1[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/assets/minecraft/textures/gui/title/background/panorama_3.png
+File10[$e]=$HOME/Documents/Private/Minecraft/PrismLauncher/assets/skins/4f/4f9f19f4e0caa8d11fd7ff96bb8900ef1475822d
+File2[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/pack.png
+File3[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/nojavaedition/assets/minecraft/textures/gui/title/edition.png
+File4[$e]=$HOME/Downloads/cooltext513059531088374.gif
+File5[$e]=$HOME/Downloads/edition.png
+File6[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/assets/minecraft/textures/gui/title/edition.png
+File7[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/assets/minecraft/textures/gui/title/kk.png
+File8[$e]=$HOME/Documents/Private/Minecraft/PrismLauncher/assets/objects/1d/1d8eb3f824e8e17c0834a17cf39b9e55b8479c2e
+File9[$e]=$HOME/Documents/Private/Minecraft/PrismLauncher/assets/objects/2d/2d888ac14e51d7cab64b5e735456d25bf000720e
+Name1[$e]=panorama_3.png
+Name10[$e]=4f9f19f4e0caa8d11fd7ff96bb8900ef1475822d
+Name2[$e]=pack.png
+Name3[$e]=edition.png
+Name4[$e]=cooltext513059531088374.gif
+Name5[$e]=edition.png
+Name6[$e]=edition.png
+Name7[$e]=kk.png
+Name8[$e]=1d8eb3f824e8e17c0834a17cf39b9e55b8479c2e
+Name9[$e]=2d888ac14e51d7cab64b5e735456d25bf000720e
 
 [SideBar]
 InformationSplitterSizes=220,255

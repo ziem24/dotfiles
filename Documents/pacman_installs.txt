@@ -21,9 +21,12 @@ docker
 docker-compose
 dolphin
 dolphin-plugins
+dosfstools
 drkonqi
 efibootmgr
 fastfetch
+ffmpegthumbnailer
+ffmpegthumbs
 filelight
 firefox
 gimp
@@ -33,12 +36,14 @@ glfw
 grub
 gst-plugin-pipewire
 gwenview
+handbrake
 i2c-tools
 iwd
 jdk-openjdk
 kate
 kcalc
 kde-gtk-config
+kdenlive
 kdeplasma-addons
 keyd
 kgamma
@@ -111,6 +116,7 @@ spectacle
 steam
 sudo
 systemsettings
+tex-gyre-fonts
 texlive-basic
 texlive-bibtexextra
 texlive-binextra

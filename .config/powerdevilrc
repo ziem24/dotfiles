@@ -1,5 +1,11 @@
 [AC][Display]
-TurnOffDisplayIdleTimeoutSec=900
+DimDisplayIdleTimeoutSec=900
+DisplayBrightness=100
+TurnOffDisplayIdleTimeoutSec=1800
+UseProfileSpecificDisplayBrightness=true
 
 [AC][SuspendAndShutdown]
 AutoSuspendIdleTimeoutSec=1800
+
+[Battery][Display]
+UseProfileSpecificDisplayBrightness=true
