@@ -1,4 +1,5 @@
 gzdoom
+libdeep_filter_ladspa-git
 neofetch
 snake
 teams-for-linux

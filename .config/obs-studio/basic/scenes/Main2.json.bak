@@ -1,7 +1,7 @@
 {
     "name": "Main",
     "DesktopAudioDevice1": {
-        "prev_ver": 537001985,
+        "prev_ver": 537001986,
         "name": "Urządzenie audio",
         "uuid": "320dc0d6-1c76-4023-8ba8-106f78de5c61",
         "id": "wasapi_output_capture",
@@ -32,7 +32,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 537001985,
+        "prev_ver": 537001986,
         "name": "Mikrofon/Wejście liniowe",
         "uuid": "b2c6e6d1-d5c0-458c-a851-874fc037e383",
         "id": "wasapi_input_capture",
@@ -65,7 +65,7 @@
     },
     "sources": [
         {
-            "prev_ver": 537001985,
+            "prev_ver": 537001986,
             "name": "Audio Input Capture (PulseAudio)",
             "uuid": "5ac9853c-7495-4bd3-b348-d570fa412ecc",
             "id": "pulse_input_capture",
@@ -96,7 +96,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 537001985,
+            "prev_ver": 537001986,
             "name": "Audio Output Capture (PulseAudio)",
             "uuid": "67e306e6-0e6f-46f3-b9bf-ebfccd302244",
             "id": "pulse_output_capture",
@@ -125,7 +125,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 537001985,
+            "prev_ver": 537001986,
             "name": "Screen Capture (PipeWire)",
             "uuid": "04582d58-8353-4863-b9e3-1739d3e67d8a",
             "id": "pipewire-screen-capture-source",
@@ -151,13 +151,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 537001985,
+            "prev_ver": 537001986,
             "name": "Scena",
             "uuid": "4479c709-a362-4509-add0-925b4b05f8ca",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 56,
+                "id_counter": 58,
                 "custom_size": false,
                 "items": [
                     {

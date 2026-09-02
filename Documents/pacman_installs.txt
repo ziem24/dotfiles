@@ -23,6 +23,7 @@ dolphin
 dolphin-plugins
 dosfstools
 drkonqi
+easyeffects
 efibootmgr
 fastfetch
 ffmpegthumbnailer
@@ -33,6 +34,7 @@ gimp
 git
 git-filter-repo
 glfw
+gram
 grub
 gst-plugin-pipewire
 gwenview
@@ -62,9 +64,11 @@ libvirt
 linux
 linux-firmware
 linux-headers
+lsp-plugins
 luajit
 man-db
 maven
+mpv
 nano
 nasm
 ncdu

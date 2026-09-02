@@ -8,30 +8,33 @@ CropRatioWidth=1
 LastUsedVersion=210800
 SideBarPage=operations
 
+[ImageView]
+ThumbnailSplitterSizes=701,200
+
 [MainWindow]
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/assets/minecraft/textures/gui/title/background/panorama_3.png
-File10[$e]=$HOME/Documents/Private/Minecraft/PrismLauncher/assets/skins/4f/4f9f19f4e0caa8d11fd7ff96bb8900ef1475822d
-File2[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/pack.png
-File3[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/nojavaedition/assets/minecraft/textures/gui/title/edition.png
-File4[$e]=$HOME/Downloads/cooltext513059531088374.gif
-File5[$e]=$HOME/Downloads/edition.png
-File6[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/assets/minecraft/textures/gui/title/edition.png
-File7[$e]=$HOME/.local/share/PrismLauncher/instances/Ultra hardcore [26.2]/minecraft/resourcepacks/UHC Panorama/assets/minecraft/textures/gui/title/kk.png
-File8[$e]=$HOME/Documents/Private/Minecraft/PrismLauncher/assets/objects/1d/1d8eb3f824e8e17c0834a17cf39b9e55b8479c2e
-File9[$e]=$HOME/Documents/Private/Minecraft/PrismLauncher/assets/objects/2d/2d888ac14e51d7cab64b5e735456d25bf000720e
-Name1[$e]=panorama_3.png
-Name10[$e]=4f9f19f4e0caa8d11fd7ff96bb8900ef1475822d
-Name2[$e]=pack.png
-Name3[$e]=edition.png
-Name4[$e]=cooltext513059531088374.gif
-Name5[$e]=edition.png
-Name6[$e]=edition.png
-Name7[$e]=kk.png
-Name8[$e]=1d8eb3f824e8e17c0834a17cf39b9e55b8479c2e
-Name9[$e]=2d888ac14e51d7cab64b5e735456d25bf000720e
+File1[$e]=/run/media/tdziekan/disk/DCIM/101MSDCF/DSC00005.JPG
+File10[$e]=$HOME/Pictures/SONY/camtest001.png
+File2[$e]=/run/media/tdziekan/disk/DCIM/101MSDCF/DSC00004.JPG
+File3[$e]=/run/media/tdziekan/disk/DCIM/101MSDCF/DSC00003.JPG
+File4[$e]=/run/media/tdziekan/disk/DCIM/101MSDCF/DSC00088.JPG
+File5[$e]=/run/media/tdziekan/disk/DCIM/101MSDCF/DSC00143.JPG
+File6[$e]=/run/media/tdziekan/disk/DCIM/101MSDCF/DSC00144.JPG
+File7[$e]=/run/media/tdziekan/disk/DCIM/101MSDCF/DSC00145.JPG
+File8[$e]=$HOME/Pictures/camtest001.png
+File9[$e]=$HOME/Pictures/SONY/DSC00145.JPG
+Name1[$e]=DSC00005.JPG
+Name10[$e]=camtest001.png
+Name2[$e]=DSC00004.JPG
+Name3[$e]=DSC00003.JPG
+Name4[$e]=DSC00088.JPG
+Name5[$e]=DSC00143.JPG
+Name6[$e]=DSC00144.JPG
+Name7[$e]=DSC00145.JPG
+Name8[$e]=camtest001.png
+Name9[$e]=DSC00145.JPG
 
 [SideBar]
 InformationSplitterSizes=220,255
