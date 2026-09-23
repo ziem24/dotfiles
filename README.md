@@ -1,7 +1,7 @@
 # Dotfiles thing for Arch Linux KDE systems
 
 ### Prerequisites:
-- A non-root user
+- A non-root user with sudo privilleges
 - Internet connection
 - Packages `git` and `sudo`
 
