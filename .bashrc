@@ -21,8 +21,6 @@ alias ll="ls -alh"
 alias aphexfetch='fastfetch -c ~/.config/fastfetch/presets/afx.jsonc'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-export TERMINAL=/usr/bin/kitty
-
 export RPG2K_RTP_PATH='/home/tdziekan/Documents/KADOKAWA/Common/RPG Maker 2000 RTP/'
 
 if [ -d ~/.bashrc.d ]; then

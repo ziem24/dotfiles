@@ -2,9 +2,31 @@
 
 CONFLICTS='/tmp/dotfiles_conflict.txt'
 
-[ whoami != root ] || echo "You are a root user!!!" && exit 101
-ping -c1 ping.archlinux.org || echo "Get internet loser!!!" && exit 102
-sudo echo "Waow you really do have sudo!!!" || echo "Get sudo privillegesNOW !!!" && exit 103
+YAY_PATH='/tmp/yay'
+THEME_PATH='/tmp/Nordic-kde'
+ICON_PATH='/tmp/Breeze-Chameleon-Icons'
+GRUB_THEME_PATH='/tmp/MilkGrub'
+
+rm -rf "$YAY_PATH" "$THEME_PATH" "$ICON_PATH" "$GRUB_THEME_PATH"
+
+# prerequisites
+if [ "$(id -u)" = 0 ]
+then
+    echo "You are a root user!!!"
+    exit 101
+fi
+
+if ! ping -c 1 ping.archlinux.org
+then
+    echo "Get internet loser!!! How the heck did you even clone this repo anyways???"
+    exit 102
+fi
+
+if ! sudo echo "Waow you really do have sudo!!!"
+then
+    echo "Get sudo privileges NOW!!!" >&2
+    exit 103
+fi
 
 echo "Creating necessary directories..."
 mkdir -p "$HOME/Videos/OBS/"
@@ -21,27 +43,32 @@ echo "Enabling NetworkManager and plasmalogin..."
 sudo systemctl enable --now NetworkManager.service
 sudo systemctl enable plasmalogin.service
 
-echo "Building yay..."
-git clone --depth=1 https://aur.archlinux.org/yay.git /tmp/yay
-OLDPWD=$(pwd)
-cd /tmp/yay
-makepkg -si
+if which yay
+then
+    echo "yay is already installed. Yay."
+else
+    echo "Building yay..."
+    git clone --depth=1 https://aur.archlinux.org/yay.git "$YAY_PATH"
+    OLDPWD=$(pwd)
+    cd "$YAY_PATH"
+    makepkg -si
+fi
 
 echo "Installing a GRUB theme (gemakfy/MilkGrub)..."
-git clone --depth=1 https://github.com/ziem24/MilkGrub.git /tmp/MilkGrub || exit 5
-cd /tmp/MilkGrub
+git clone https://github.com/ziem24/MilkGrub.git "$GRUB_THEME_PATH" || exit 5
+cd "$GRUB_THEME_PATH"
 git checkout fedora-support
-sudo bash install.sh # nasty bashisms oughhhh
+sudo ./install.sh # nasty bashisms oughhhh
 
 cd "$OLDPWD"
 
 echo "Installing KDE themes..."
-git clone --depth=1 https://github.com/L4ki/Breeze-Chameleon-Icons.git /tmp/Breeze-Chameleon-Icons || exit 3
-mv '/tmp/Breeze-Chameleon-Icons/Breeze Chameleon Dark' ~/.local/share/icons/
-git clone --depth=1 https://github.com/EliverLara/Nordic-kde.git /tmp/Nordic-kde || exit 4
-mv /tmp/Nordic-kde ~/.local/share/plasma/desktoptheme/Nordic
+git clone --depth=1 https://github.com/L4ki/Breeze-Chameleon-Icons.git "$ICON_PATH" || exit 3
+mv "$ICON_PATH/Breeze Chameleon Dark" "$HOME/.local/share/icons/"
+git clone --depth=1 https://github.com/EliverLara/Nordic-kde.git "$THEME_PATH" || exit 4
+mv "$THEME_PATH" "$HOME/.local/share/plasma/desktoptheme/Nordic"
 
-rm -rf /tmp/yay /tmp/Breeze-Chameleon-Icons /tmp/MilkGrub
+rm -rf "$YAY_PATH" "$ICON_PATH" "$GRUB_THEME_PATH"
 
 echo "Checking out the repository branch..."
 rm -f "$CONFLICTS"
