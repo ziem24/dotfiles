@@ -1,6 +1,7 @@
 gzdoom
 libdeep_filter_ladspa-git
-neofetch
+localsend-bin
+raylib-cpp-git
 snake
 teams-for-linux
 ttf-segoe-ui-variable

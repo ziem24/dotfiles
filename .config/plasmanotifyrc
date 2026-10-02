@@ -1,6 +1,9 @@
 [Applications][discord]
 Seen=true
 
+[Applications][org.mozilla.Thunderbird]
+Seen=true
+
 [Applications][org.mozilla.firefox]
 Seen=true
 

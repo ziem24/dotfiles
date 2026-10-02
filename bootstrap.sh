@@ -93,4 +93,5 @@ Done. Here are some things you might want to do:
     - sudo pacman -S --needed $(cat ~/Documents/pacman_installs.txt)  # installs a lot of pacman packages
     - yay -S $(cat ~/Documents/aur_installs.txt)  # installs a couple of AUR packages
     - sudo systemctl start plasmalogin.service  # starts the KDE Plasma login manager (RedHat SystemD GCC Virus Technology)
+    - reboot the system (you will be graced by the awesome grub theme)
 ================='

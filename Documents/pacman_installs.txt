@@ -40,6 +40,7 @@ gst-plugin-pipewire
 gwenview
 handbrake
 i2c-tools
+ifuse
 iwd
 jdk-openjdk
 kate
@@ -111,7 +112,7 @@ python-matplotlib
 python-pip
 qemu-base
 qemu-ui-curses
-rclone
+raylib
 reflector
 rsync
 smartmontools
@@ -149,6 +150,7 @@ tree
 typst
 ufw
 unzip
+usbmuxd
 usbutils
 valgrind
 vim
