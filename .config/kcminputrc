@@ -5,6 +5,7 @@ Enabled=true
 PointerAccelerationProfile=1
 
 [Libinput][5426][120][Razer Razer Viper]
+LeftHanded=false
 PointerAcceleration=0.600
 PointerAccelerationProfile=1
 

@@ -1,4 +1,5 @@
 gzdoom
+kgamma
 libdeep_filter_ladspa-git
 localsend-bin
 raylib-cpp-git
@@ -9,6 +10,7 @@ tuxracer
 vencord
 visual-studio-code-bin
 vscodium
+wacomtablet
 xf86-video-vmware
 yay
 ytdlp-gui

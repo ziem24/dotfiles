@@ -152,12 +152,49 @@
         },
         {
             "prev_ver": 537001986,
+            "name": "Video Capture Device (V4L2)",
+            "uuid": "970b4660-ffb4-4450-b8c0-9eeaee2a6532",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
+            "settings": {
+                "device_id": "/dev/video4",
+                "Brightness": 0,
+                "Contrast": 14,
+                "Saturation": 9,
+                "White Balance Temperature": 6500,
+                "Sharpness": 5,
+                "Exposure Time, Absolute": 500,
+                "Backlight Compensation": 1,
+                "input": 0,
+                "pixelformat": 1196444237,
+                "resolution": 2748779069920,
+                "color_range": 1
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 537001986,
             "name": "Scena",
             "uuid": "4479c709-a362-4509-add0-925b4b05f8ca",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 58,
+                "id_counter": 60,
                 "custom_size": false,
                 "items": [
                     {
@@ -324,6 +361,61 @@
                             "duration": 300
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Video Capture Device (V4L2)",
+                        "source_uuid": "970b4660-ffb4-4450-b8c0-9eeaee2a6532",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 60,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1591.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": 1.1685185432434082,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 0.5140625238418579,
+                            "y": 0.5145833492279053
+                        },
+                        "scale_rel": {
+                            "x": 0.5140625238418579,
+                            "y": 0.5145833492279053
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -345,7 +437,9 @@
                 "libobs.show_scene_item.55": [],
                 "libobs.hide_scene_item.55": [],
                 "libobs.show_scene_item.56": [],
-                "libobs.hide_scene_item.56": []
+                "libobs.hide_scene_item.56": [],
+                "libobs.show_scene_item.60": [],
+                "libobs.hide_scene_item.60": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -369,7 +463,7 @@
     "quick_transitions": [],
     "saved_projectors": [],
     "preview_locked": false,
-    "scaling_enabled": false,
+    "scaling_enabled": true,
     "scaling_level": -8,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,

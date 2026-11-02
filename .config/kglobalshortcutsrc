@@ -10,47 +10,6 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Ke
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
-[amarok]
-_k_friendly_name=Amarok
-decreaseVolume=Meta+-,Meta+-,Decrease Volume
-increaseVolume=Meta++,Meta++,Increase Volume
-loveTrack=Meta+L,Meta+L,Last.fm: Love Current Track
-mute=Meta+M,Meta+M,Mute Volume
-next=none,none,Next Track
-play_pause=none,none,Play/Pause
-playlist_add=Meta+A,Meta+A,Add Media...
-prev=none,none,Previous Track
-rate1=Meta+1,Meta+1,Rate Current Track: 1
-rate2=Meta+2,Meta+2,Rate Current Track: 2
-rate3=Meta+3,Meta+3,Rate Current Track: 3
-rate4=Meta+4,Meta+4,Rate Current Track: 4
-rate5=Meta+5,Meta+5,Rate Current Track: 5
-replay=none,none,Restart current track
-seek_backward_medium=Meta+Shift+-,Meta+Shift+-,Seek Backward by 10.0 seconds
-seek_forward_medium=Meta+Shift++,Meta+Shift++,Seek Forward by 10.0 seconds
-showNotificationPopup=Meta+O,Meta+O,Show Notification Popup
-skipTrack=Meta+S,Meta+S,Last.fm: Skip Current Track
-stop=none,none,Stop
-stop_after_current=Meta+Shift+V,Meta+Shift+V,Stop after current Track
-toggleMainWindow=none,none,Toggle Main Window
-
-[juk]
-_k_friendly_name=JuK
-back=Ctrl+Alt+Left,Ctrl+Alt+Left,Previous
-forward=Ctrl+Alt+Right,Ctrl+Alt+Right,Next
-forwardAlbum=Ctrl+Alt+Up,Ctrl+Alt+Up,Play Next Album
-mute=Ctrl+Alt+M,Ctrl+Alt+M,Mute
-playPause=Ctrl+Alt+P,Ctrl+Alt+P,Play / Pause
-seekBack=Ctrl+Alt+Shift+Left,Ctrl+Alt+Shift+Left,Seek Back
-seekForward=Ctrl+Alt+Shift+Right,Ctrl+Alt+Shift+Right,Seek Forward
-stop=Ctrl+Alt+S,Ctrl+Alt+S,Stop
-volumeDown=Ctrl+Alt+Shift+Down,Ctrl+Alt+Shift+Down,Volume Down
-volumeUp=Ctrl+Alt+Shift+Up,Ctrl+Alt+Shift+Up,Volume Up
-
-[kaccess]
-Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
-_k_friendly_name=Accessibility
-
 [kmix]
 _k_friendly_name=Audio Volume
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
@@ -88,8 +47,8 @@ Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=none,none,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
 Move Tablet to Next LogicalOutput=none,none,Move the tablet to the next output
-MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
-MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
+MoveMouseToCenter=Meta+F6,Meta+F6,Center Pointer in Screen
+MoveMouseToFocus=Meta+F5,Meta+F5,Center Pointer in Focused Window
 MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
@@ -116,7 +75,7 @@ Switch to Desktop 16=none,none,Switch to Desktop 16
 Switch to Desktop 17=none,none,Switch to Desktop 17
 Switch to Desktop 18=none,none,Switch to Desktop 18
 Switch to Desktop 19=none,none,Switch to Desktop 19
-Switch to Desktop 2=Ctrl+F2\tMeta+F2,Ctrl+F2\tMeta+F2,Switch to Desktop 2
+Switch to Desktop 2=Meta+F2,Ctrl+F2\tMeta+F2,Switch to Desktop 2
 Switch to Desktop 20=none,none,Switch to Desktop 20
 Switch to Desktop 21=none,none,Switch to Desktop 21
 Switch to Desktop 22=none,none,Switch to Desktop 22
@@ -147,6 +106,7 @@ Switch to Screen Below=none,none,Switch to Screen Below
 Switch to Screen to the Left=none,none,Switch to Screen to the Left
 Switch to Screen to the Right=none,none,Switch to Screen to the Right
 Toggle Night Color=none,none,Suspend/Resume Night Light
+Toggle Show Compositing=none,none,Toggle “Show Compositing” effect
 Toggle Window Raise/Lower=none,none,Toggle Window Raise/Lower
 Walk Through Windows=Alt+Tab\tMeta+Tab,Alt+Tab\tMeta+Tab,Walk Through Windows
 Walk Through Windows (Reverse)=Alt+Shift+Tab\tMeta+Shift+Tab,Alt+Shift+Tab\tMeta+Shift+Tab,Walk Through Windows (Reverse)
@@ -244,6 +204,36 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[kwin][$InverseAction]
+Cycle Overview=Cycle Overview Opposite
+Increase Opacity=Decrease Opacity
+MoveZoomDown=MoveZoomUp
+MoveZoomLeft=MoveZoomRight
+Switch One Desktop Up=Switch One Desktop Down
+Switch One Desktop to the Right=Switch One Desktop to the Left
+Switch Window Left=Switch Window Right
+Switch Window Up=Switch Window Down
+Switch to Next Desktop=Switch to Previous Desktop
+Switch to Previous Screen=Switch to Next Screen
+Switch to Screen Below=Switch to Screen Above
+Switch to Screen to the Left=Switch to Screen to the Right
+Walk Through Windows=Walk Through Windows (Reverse)
+Walk Through Windows Alternative (Reverse)=Walk Through Windows Alternative
+Walk Through Windows of Current Application=Walk Through Windows of Current Application (Reverse)
+Walk Through Windows of Current Application Alternative (Reverse)=Walk Through Windows of Current Application Alternative
+Window Grow Horizontal=Window Shrink Horizontal
+Window Grow Vertical=Window Shrink Vertical
+Window One Desktop Up=Window One Desktop Down
+Window One Desktop to the Left=Window One Desktop to the Right
+Window One Screen Down=Window One Screen Up
+Window One Screen to the Right=Window One Screen to the Left
+Window Pack Left=Window Pack Right
+Window Pack Up=Window Pack Down
+Window Raise=Window Lower
+Window to Next Screen=Window to Previous Screen
+Window to Previous Desktop=Window to Next Desktop
+view_zoom_in=view_zoom_out
+
 [mediacontrol]
 _k_friendly_name=Media Controller
 mediavolumedown=none,none,Media volume down
@@ -279,6 +269,8 @@ powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 Slideshow Wallpaper Next Image=none,none,Next Wallpaper Image
 _k_friendly_name=plasmashell
 activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
+activate next task manager entry=Meta+Ctrl+PgDown,Meta+Ctrl+PgDown,Activate Next Task Manager Entry
+activate previous task manager entry=Meta+Ctrl+PgUp,Meta+Ctrl+PgUp,Activate Previous Task Manager Entry
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,none,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -291,12 +283,14 @@ activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 clear history=none,none,Clear Notification History
 clear-history=none,none,Clear Clipboard History
-clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
+clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 edit_clipboard=none,none,Edit Contents…
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
+move active task to left=Meta+Ctrl+Shift+PgUp,Meta+Ctrl+Shift+PgUp,Move Active Task Manager Entry Backward
+move active task to right=Meta+Ctrl+Shift+PgDown,Meta+Ctrl+Shift+PgDown,Move Active Task Manager Entry Forward
 next activity=Meta+A,none,Walk through activities
 previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
 repeat_action=none,none,Manually Invoke Action on Current Clipboard
@@ -310,8 +304,15 @@ toggle do not disturb=none,none,Toggle do not disturb
 [services][kitty.desktop]
 _launch=Alt+T
 
+[services][org.kde.krunner.desktop]
+RunClipboard=none
+_launch=Alt+Space\tMeta+S
+
 [services][org.kde.plasma-systemmonitor.desktop]
 _launch=Ctrl+Shift+Esc\tMeta+Esc
 
+[services][org.kde.screenreader.desktop]
+toggleScreenReader=none
+
 [services][systemsettings.desktop]
-_launch=Tools\tMeta+I\tMeta+S
+_launch=Meta+I
